@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 import os
+#AUTHOR: MASON DONNOHUE
 
 lOption = True #lines
 wOption = True #words
@@ -64,49 +65,4 @@ else: #if the list "files" is not empty (meaning the user specified file(s))
 		if cOption or mOption:
 			print("%3d"%characters, end = " ")
 		print(file)
-
-
-
-
-
-
-
-
-
-
-'''
-cOption = True #Means that there is an option specified by default
-wOption = True #By default
-lOption = True #By default
-m0ption = False #By default
-
-if len(sys.argv) > 1 and sys.argv[1][0] == "-": #if an option is provided, the options will be reset based on what is wanted. First character of first command line argument
-	cOption = False
-	wOption = False
-	lOption = False
-
-
-for arg in sys.argv:
-	#if starts with dash, it's an option string
-	if arg[1] == "-":
-		#you found an option
-		if "l" in arg[0]:
-			lOption = True
-'''
-
-'''
-accumulator =0
-for i in range(10):
-	accumulator += 2*i
-
-print(accumulator)
-'''
-
-'''
-myfile = open("pywc")
-for line in myfile:
-	print(line)
-	for word in line.split():
-		print(word)
-'''
 

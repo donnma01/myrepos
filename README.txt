@@ -19,5 +19,11 @@ RUNNING pywc:
 NOTES ABOUT OTHER FILES IN THIS DIRECTORY:
 blue.txt, orange.txt, red.txt, testfile1.txt, testfile2.txt, and testfile3.txt are all sample text files for you to use to run pywc. 
 
-USING GITHUB REPOSITORIES:
-	
+CLONING REPOSITORY:
+	-To create clone, type: git branch (NEW_REPOSITORY_NAME)
+	-Switch branches by using: git checkout NEW_REPOSITORY NAME
+	-Make changes
+	-Return to master branch by typing: git branch (OLD_REPOSITORY)
+	-To merge branches: git merge (NEW_REPOSITORY_NAME)
+	-To delete branch - git branch-d (REPOSITORY NAME)
+
